@@ -1,6 +1,9 @@
 ; vim: ft=lisp et
 (in-package :asdf)
 (defsystem "glsl-env"
+  :author "SATO Shinichi"
+  :description "CLtL2 compatible environment protocol for GLSL."
+  :license "MIT"
   :version
   "0.0.0"
   :depends-on
