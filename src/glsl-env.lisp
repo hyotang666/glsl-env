@@ -2,7 +2,7 @@
 
 (defpackage :glsl-env
   (:use :cl)
-  (:export #:notation #:stage #:*environment*))
+  (:export #:notation #:stage))
 
 (in-package :glsl-env)
 
